@@ -37,7 +37,8 @@ app.post("/", (req, res) => {
         }
         else {
             console.log(details);
-            res.render('sendResponse',{name:details.EmailAddress});
+            // res.render('sendResponse',{name:details.CustomFields});
+            res.json(details)
         }
     });
 })
