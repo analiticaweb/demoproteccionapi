@@ -20,9 +20,9 @@ app.post("/", (req, res) => {
     var details = {
         EmailAddress: 'david@gmail.com',
         CustomFields: [
-          { Key: 'ahorro', Value: req.body.ahorro },
-          { Key: 'hobby', Value: req.body.hobby },
-          { Key: 'premio', Value: req.body.premio }
+          { Key: 'ahorro', Value: req.body.ahorroval },
+          { Key: 'hobby', Value: req.body.hobbyval },
+          { Key: 'premio', Value: req.body.premioval }
         ]
         // CustomFields: [
         //     { Key: 'ahorro', Value: 'req.body.ahorro' },
