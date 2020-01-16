@@ -18,7 +18,7 @@ var listId = 'f493ed3a7bbf2f79c425e7eba1a6ae7a' // The ID of the list
 
 app.post("/", (req, res) => {
     var details = {
-        EmailAddress: 'david@gmail.com',
+        EmailAddress: req.body.email,
         CustomFields: [
           { Key: 'ahorro', Value: req.body.ahorroval },
           { Key: 'hobby', Value: req.body.hobbyval },
