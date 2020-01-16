@@ -22,7 +22,8 @@ app.post("/", (req, res) => {
         CustomFields: [
           { Key: 'ahorro', Value: req.body.ahorroval },
           { Key: 'hobby', Value: req.body.hobbyval },
-          { Key: 'premio', Value: req.body.premioval }
+          { Key: 'premio', Value: req.body.premioval },
+          { Key: 'perfil', Value: req.body.perfil }
         ]
         // CustomFields: [
         //     { Key: 'ahorro', Value: 'req.body.ahorro' },
